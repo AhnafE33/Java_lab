@@ -1,0 +1,14 @@
+public class myinfo {
+    
+    public static void main(String[] args) {
+        String name = "Ahnaf Abrur";
+        String StudentId = "E233033";
+        Integer age = 23;
+        String Email = "alavi@gmail.com";
+        String Phone = "0105165821210";
+        String Address = " halishahar B Block";
+
+        System.out.printf("My name is: %s %nMy StudentId is: %s %nage: %d %nEmail: %s %nPhone: %s %nAddress: %s", 
+                          name, StudentId, age, Email, Phone, Address);
+    }
+}
