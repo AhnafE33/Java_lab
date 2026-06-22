@@ -1,0 +1,23 @@
+class displayCar {
+    String brand;
+    String model;
+    int year;
+    // Constructor
+    displayCar(String b, String m, int y) {
+        brand = b;
+        model = m;
+        year = y;
+    }
+    void displayInfo() {
+        System.out.println("year:" + year);
+        System.out.println("brand:" + brand);
+        System.out.println("model:" + model);
+    }
+    public static void main(String[] args) {
+        displayCar car1 = new displayCar("Toyota", "Corolla", 2022);
+        displayCar car2 = new displayCar("Honda", "Civic", 2023);
+ car1.displayInfo();
+        car2.displayInfo();
+    }
+}
+        
