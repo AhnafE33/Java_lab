@@ -1,0 +1,29 @@
+class showID 
+{
+    String name;
+    String IDnumber;
+    String department;
+    String institution;
+    // Constructor to initialize the object
+    showID(String x, String y, String z, String f) {
+        name = x;
+        IDnumber = y;
+        department = z;
+        institution = f;
+    }
+    // Method to print the data
+    void display() {
+        System.out.println("name:" + name);
+        System.out.println("IDnumber:" + IDnumber);
+        System.out.println("department:" + department);
+        System.out.println("institution:" + institution);
+    }
+    public static void main(String[] args) {
+        // Creating two instances of the showID class
+        showID card1 = new showID("Alavi", "E253033", "CCE", "IIUC");
+        showID card2 = new showID("Sakwatul Islam", "E253004", "CCE", "IIUC");
+        // Calling the display method for each object
+        card1.display();
+        card2.display();
+    }
+}
